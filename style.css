@@ -1,0 +1,42 @@
+:root{
+    --bgc: white;
+    --navColor : rgb(0, 110, 255);
+}   
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: var(--bgc);
+    height: 100vh;
+}
+.nav{
+    height: 2rem;
+    background-color: var(--navColor);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.s1{
+    word-wrap: break-word;
+    padding: 1rem;
+}
+.s1 p{
+    margin-top: 1rem;
+}
+.s2{
+    margin: 1rem;
+}
+
+.s2 pre{
+    word-wrap: break-word;
+}
